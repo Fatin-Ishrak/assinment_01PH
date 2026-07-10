@@ -50,7 +50,7 @@ ul{
 
 .speakers-grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2 , 1fr);
     gap: 30px;
     max-width: 1140px;
     margin: 5px;
@@ -75,4 +75,36 @@ h1{
     padding: 50px;
     text-align: center;
     font-size: xx-large;
+}
+
+.container{
+    box-sizing: border-box;
+}
+
+.spot{
+    
+    font-size: xx-large;
+    text-align: center;
+
+}
+.heading{
+    padding: 70px;
+}
+.early{
+    font-size: x-small;
+    text-align: center;
+}
+
+.buy{
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
