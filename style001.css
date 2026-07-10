@@ -27,3 +27,18 @@ ul{
     border: none;
     cursor: pointer;
 }
+
+
+.hero{
+    background-image: url(assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: white; 
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
