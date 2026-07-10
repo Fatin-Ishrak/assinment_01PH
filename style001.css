@@ -1,0 +1,29 @@
+header{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+/* common style button */
+.common_btn{
+    background-color: rgb(30, 67, 250);
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
