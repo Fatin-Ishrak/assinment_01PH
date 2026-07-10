@@ -46,3 +46,33 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
+
+.speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1140px;
+    margin: 5px;
+    text-align: left;
+    
+     
+}
+
+.single-speaker{
+    background-color: rgba(201, 203, 203, 0.277);
+    border-radius: 15px;
+    border-color: black;
+}
+
+.single-speaker p{
+    font-size: 15px;
+    color: rgb(134, 116, 252);
+    margin: 0px;
+}
+
+h1{
+    padding: 50px;
+    text-align: center;
+    font-size: xx-large;
+}
