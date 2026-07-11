@@ -12,14 +12,26 @@ nav{
     padding: 10px 0;
 }
 
-ul{
+.menu{
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     gap: 40px;
     list-style: none;
 }
+
+
+/* ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+} */
 /* common style button */
 .common_btn{
     background-color: rgb(30, 67, 250);
@@ -116,9 +128,22 @@ h1{
 
 .parent-div{
     display: flex;
-    flex-direction: column;
-}
+    
+    justify-content: center;
+    gap: 20px;
 
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 40px 50px;
+    justify-content: space-around;
+    
+    border: 5px rgb(92, 92, 92);
+    border-radius: 12px;
+
+}
 
 
 /* footer */
