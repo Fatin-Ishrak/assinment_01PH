@@ -108,3 +108,27 @@ h1{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+/* footer */
+
+footer{
+    text-align: center;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color: rgb(187, 187, 187);
+}
+
+footer form input{
+    border: 2px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 8px  15px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 8px;
+    width: 85%;
+}
