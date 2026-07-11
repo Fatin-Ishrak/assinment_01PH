@@ -145,6 +145,77 @@ h1{
 
 }
 
+/* Ai generated code */
+
+/* FAQ Section Base Styling */
+.faq-section {
+    background-color: #ffffff; /* Contrast switch from the off-white pricing section */
+    padding: 80px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.faq-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Headings */
+.faq-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.faq-subtitle {
+    font-size: 16px;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* 2-Column Grid Layout */
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px; /* Space between FAQ blocks */
+}
+
+/* Individual FAQ Item Box */
+.faq-item {
+    background-color: transparent;
+    padding: 10px;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+    margin: 0 0 12px 0;
+    line-height: 1.4;
+}
+
+.faq-item p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive: Collapses to 1 column on Mobile devices */
+@media (max-width: 768px) {
+    .faq-section {
+        padding: 50px 20px;
+    }
+    .faq-grid {
+        grid-template-columns: 1fr; /* 1 column on smaller screens */
+        gap: 30px;
+    }
+    .faq-title {
+        font-size: 28px;
+    }
+}
 
 /* footer */
 
