@@ -86,19 +86,19 @@ h1{
     font-size: xx-large;
     text-align: center;
 
-}
+} 
 .heading{
     padding: 70px;
 }
 .early{
     font-size: x-small;
     text-align: center;
-}
+} 
 
 .buy{
     display: flex;
     flex-direction: column;
-}
+} 
 
 .pricing-section{
     display: flex;
@@ -107,7 +107,18 @@ h1{
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
+} 
+
+
+
+
+/* New subscribtion part */
+
+.parent-div{
+    display: flex;
+    flex-direction: column;
 }
+
 
 
 /* footer */
